@@ -96,6 +96,7 @@ a {
 .team-members{
   display:flex;
   justify-content:center;
+  flex-wrap:wrap;
 }
 
 .member{
@@ -103,14 +104,16 @@ a {
   display:inline-block;
   margin: 20px;
   text-align: center;
-  border: #7594ec solid 2px;
+  border: #0cb5c5 double 5px;
   border-radius: 15px;
-  padding: 10px;
+  box-shadow: 5px 5px 5px #28767d;
+  padding: 20px;
   margin-top: 20px;
 }
 
 .member-pic{
   height: 200px;
+  max-width:100%;
 }
 
 @media (max-width: 1000px){
